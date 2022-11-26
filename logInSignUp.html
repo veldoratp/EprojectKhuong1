@@ -1,10 +1,108 @@
 <style>
-    
+    .form {
+        background-color: deepskyblue;
+        margin: 100px;
+    }
+
+    .in_1 {
+        margin-top: 15px;
+        padding: 4px 70px;
+        border: 2px solid deepskyblue;
+        background-color: white;
+    }
+
+    .up_1 {
+        margin-top: 15px;
+        padding: 4px 70px;
+        border: 2px solid deepskyblue;
+        background-color: deepskyblue;
+    }
+    .in_2 {
+        margin-top: 15px;
+        padding: 4px 70px;
+        border: 2px solid deepskyblue;
+        background-color: deepskyblue;
+    }
+    .up_2 {
+        margin-top: 15px;
+        padding: 4px 70px;
+        border: 2px solid deepskyblue;
+        background-color: white;
+    }
+
+    .fb {
+        background-color: blue;
+        color: white;
+        font-size: 1.1rem;
+        padding: 7px 80px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .gg {
+        background-color: orangered;
+        color: white;
+        font-size: 1.1rem;
+        padding: 7px 80px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    input[type="text"] {
+        margin: 20px;
+        width: 92%;
+    }
+
+    button[type="submit"] {
+        padding: 10px 200px;
+        background-color: deepskyblue;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        margin: 10px;
+    }
+
+    .left {
+        margin-bottom: 20px;
+    }
 </style>
+
 <body>
-    <div class="container ">
-        <div class="content row">
-          
+    <div class="row form ">
+        <div class="left col-6 my-5 text-center">
+            <form action="" class="form-control">
+                <div class="row ">
+                    <div class=" col-6 "><button class="in_1">SIGN IN</button></div>
+                    <div class=" col-6"><button class="up_1">SIGN UP </button></div>
+                </div>
+                <div class="row fb-gg">
+                    <div class="col-6"><button class="fb">f</button></div>
+                    <div class="col-6"><button class="gg">G</button></div>
+                </div>
+                <input type="text" class="form-control" placeholder="E-mail">
+                <input type="text" class="form-control" placeholder="Password">
+                <div class="submit">
+                    <button type="submit">SIGN IN </button>
+                </div>
+            </form>
+        </div>
+        <div class="right col-6 my-5 text-center">
+            <form action="" class="form-control">
+                <div class="row ">
+                    <div class="col-6"><button class="in_2">SIGN IN</button></div>
+                    <div class="col-6"><button class="up_2">SIGN UP</button></div>
+                </div>
+                <input type="text" class="form-control" placeholder="Username">
+                <input type="text" class="form-control" placeholder="E-mail">
+                <input type="text" class="form-control" placeholder="Password">
+                <div class="submit">
+                    <button type="submit">SIGN UP </button>
+                </div>
+            </form>
         </div>
     </div>
+
+
 </body>
