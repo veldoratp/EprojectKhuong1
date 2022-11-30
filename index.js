@@ -13,3 +13,7 @@ app.config(function ($routeProvider) {
 });
 
 app.controller("ctrl", function ($scope) {});
+
+app.controller("ccontact", function ($scope) {
+  
+});
